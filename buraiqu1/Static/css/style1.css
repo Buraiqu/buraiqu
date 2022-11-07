@@ -1,0 +1,284 @@
+body{
+    background-color: #071325;
+}
+
+
+  
+
+
+.bg2{
+    background-color: #071325;
+}
+
+.bg{
+    background-color: #071325c6;
+    backdrop-filter: blur(5px);
+    margin-top: -18px;
+    position: fixed;
+    margin-top:-60px;
+}
+
+
+.bg1{
+    background-color: #071325;
+    position: fixed;
+}
+
+.logo{
+    font-size: 35px;
+    font-family: Impact;
+    font-weight: bolder;
+    color:rgb(11, 190, 118);
+}
+
+ .menu1
+{
+    color:rgb(40, 130, 106);
+    font-size: 55px;
+}
+
+.nv1{
+    color: rgb(11, 190, 118);
+    font-size: 18px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+
+.nv1:hover{
+    color: rgb(6, 190, 118);
+    top: -3px;
+}
+
+.nav122{
+    padding: 20px;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* .btn{
+    text-align: center;
+    display: flex;
+    height: 40px;
+}
+
+.btn:hover{
+    color: #071325;
+    background-color: #071325;
+} */
+
+.btn
+{
+    width: 100.79px;
+    height: 44px;
+    border: none;
+    justify-content: center;
+    padding-bottom: 35px;
+    color: #071325;
+    background-color:  rgb(11, 190, 118);
+    cursor: pointer;
+    font-size: 16px; 
+    border-radius: 4px;
+    outline: none;
+    font-family: "Quicksand" , sans-serif;
+}
+
+.btn:hover
+{
+    color: rgb(11, 190, 118);
+    cursor: pointer;
+    background-color: #071325;
+
+}
+
+/* * {
+    list-style: none;
+} */
+
+.sidebar{
+    position: fixed;
+    width: 73px;
+    height: 100%;
+    top: 95px;
+    left: 0;
+    padding: 15px;
+}
+   
+
+.sidebar ul li .fa{
+    line-height: 1.3em;
+    padding: 7px;
+    font-size: 30px;
+    width: 23px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(11, 190, 118);
+    background: #071325;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.sidebar ul li .fa:hover
+{
+  background-color: #071325;
+  color:  rgb(6, 201, 123);
+  top: -10px;
+}
+
+.vl {
+    border-left: 2px solid rgb(11, 190, 118);
+    height: 150px;
+    position: absolute;
+    left: 40%;
+    padding: 14px;
+    margin-left: 2px;
+    top: 0;
+  }
+
+.right12{
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 7px;
+    color: rgb(11, 190, 118);
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.right12:hover{
+    color:  rgb(6, 190, 118);
+    top: -10px;
+}
+
+.main1{
+    margin-left: 13%;
+    margin-top: 80px;
+}
+
+.hr12{
+    position: relative;
+    width: clamp(100px, 8vw, 350px);
+    height: 1px;
+    color: rgb(11, 190, 118);
+    bottom: -5px;
+}
+
+.h11 {
+    margin: 0px 0px 10px 4px;
+    color: rgb(11, 190, 118);
+    font-family: var(--font-mono);
+    font-size: clamp(10px,8vw,18px);
+    font-weight: 400;
+}
+
+.h21{
+    color: rgb(11, 190, 118);
+    font-family: var(--font-mono);
+    font-size: clamp(12px,8vw,30px);
+    font-weight: 400;
+}
+
+.h22{
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: bold;
+    color: rgb(165, 167, 168);
+}
+
+.p11{
+    color: rgb(165, 167, 168);
+    font-size:clamp(10px, 8vw, 20px);
+    line-height: 1.8em;
+    word-spacing: 0.3em;
+}
+
+.btn12 
+{
+    width: 150px;
+    height: 44px;
+    justify-content: center;
+    color: rgb(11, 190, 118); 
+    background-color:  transparent;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 19px; 
+    border-radius: 4px;
+    border-color:rgb(11, 190, 118); 
+    outline: none;
+    font-family: "Quicksand" , sans-serif;
+}
+
+
+
+.btn12:hover
+{
+    color: #071325;
+    border-width: 4px;
+    cursor: pointer;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: rgb(6, 201, 123);
+
+}
+
+.list1{
+    list-style: none;
+    color: rgb(11, 190, 118);
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.btn13 
+{
+    width: 200px;
+    height: 44px;
+    justify-content: center;
+    color: rgb(11, 190, 118); 
+    background-color:  transparent;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 19px; 
+    border-radius: 4px;
+    border-color:rgb(11, 190, 118); 
+    outline: none;
+    font-family: "Quicksand" , sans-serif;
+}
+
+
+
+.btn13:hover
+{
+    color: #071325;
+    border-width: 4px;
+    cursor: pointer;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: rgb(6, 201, 123);
+
+}
+
+.footer1{
+    position: absolute;
+    width: 80%;
+    height: 100px;
+    margin-left: 13%;
+    margin-top: 80px;
+    color: rgb(6, 201, 123);
+    align-self: center;
+    justify-self: center;
+}
+    

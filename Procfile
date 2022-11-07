@@ -1,0 +1,1 @@
+web: gunicorn buraiqu.wsgi --log-file -
